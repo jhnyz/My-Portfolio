@@ -9,7 +9,7 @@
 
 :root {
   --cream: #fffaf5;
-  --cream-dark: #e9e2dc;
+  --cream-dark: #eee0d4;
   --pink: #e9a6b2;
   --dark-pink: #c87586;
   --light-pink: #f8dce1;
@@ -229,6 +229,8 @@ a {
 .section-title h2 {
   font-family: "Playfair Display", serif;
   font-size: 48px;
+  color: var(--light-pink);
+
 }
 
 /* ABOUT */
@@ -369,6 +371,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px 60px;
+  color: var(--dark-pink);
 }
 
 .skill span {
