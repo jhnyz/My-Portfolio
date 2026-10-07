@@ -9,7 +9,7 @@
 
 :root {
   --cream: #fffaf5;
-  --cream-dark: #f7eee6;
+  --cream-dark: #e9e2dc;
   --pink: #e9a6b2;
   --dark-pink: #c87586;
   --light-pink: #f8dce1;
@@ -113,6 +113,7 @@ a {
   line-height: 0.95;
   font-weight: 600;
   margin-bottom: 25px;
+  color: var(--light-pink);
 }
 
 .hero h1 span {
@@ -123,6 +124,7 @@ a {
   font-size: 23px;
   font-weight: 500;
   margin-bottom: 20px;
+  color : var(--light-pink);
 }
 
 .hero-description {
@@ -525,4 +527,21 @@ footer a:hover {
     flex-direction: column;
     gap: 15px;
   }
+}
+
+#root {
+  border: none !important;
+}
+
+.app {
+  border: none !important;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
 }
